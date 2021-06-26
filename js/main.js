@@ -59,11 +59,6 @@ slider.oninput = () => {
         }
     }
     sliderDiv.style.width = `${num}%`;
-    if (num >= 50) {
-        circle.innerHTML = ".sliderInput::-webkit-slider-thumb { background-color: hsl(174, 86%, 45%); }";
-    }else {
-        circle.innerHTML = ".sliderInput::-webkit-slider-thumb { background-color: hsl(174, 77%, 80%); background-image: url('../images/icon-slider-1.svg') }";
-    }
 }
 
 function multiplyNum() {

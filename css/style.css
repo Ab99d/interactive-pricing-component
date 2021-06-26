@@ -220,7 +220,6 @@ img:first-child {
 
 .fifth ul {
     list-style: url(../images/icon-check.svg);
-
 }
 
 .fifth ul li {
@@ -244,6 +243,8 @@ img:first-child {
     position: relative;
     left: 10px;
 }
+
+
 
 @media (max-width: 1050px) {
     .container {
